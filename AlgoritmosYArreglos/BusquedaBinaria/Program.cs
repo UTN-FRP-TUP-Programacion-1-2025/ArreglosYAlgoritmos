@@ -17,10 +17,10 @@
             int idx = -1;
 
             int inicio = 0;
-            int fin = 6;
+            int fin = 5;
 
             int medio = (fin + inicio) / 2;
-            while (idx==-1 && medio>0 && medio<fin)
+            while (idx==-1 && inicio<=fin)
             {
                 if (numeros[medio] == busqueda)
                 {
