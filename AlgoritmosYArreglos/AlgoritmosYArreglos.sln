@@ -11,6 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdenamientoQuickSort", "Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdenamientoBurbuja", "OrdenamientoBurbuja\OrdenamientoBurbuja.csproj", "{2BCFB6F6-D913-4863-9BA8-35495CB25965}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContadorRecursivo", "ContadorRecursivo\ContadorRecursivo.csproj", "{223E38E4-8EC1-48E3-98F1-9F56D6E422BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iterativos_recursivos", "iterativos_recursivos", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "busqueda", "busqueda", "{3AC96D69-A363-4496-8B41-327ECAD1EAEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ordenamiento", "ordenamiento", "{10FDCA59-D738-4DB9-ADCE-BE74ED6250DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContadorIterativo", "ContadorIterativo\ContadorIterativo.csproj", "{338A8015-5A0B-482D-ACD7-BFD7078059E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +43,25 @@ Global
 		{2BCFB6F6-D913-4863-9BA8-35495CB25965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BCFB6F6-D913-4863-9BA8-35495CB25965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BCFB6F6-D913-4863-9BA8-35495CB25965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223E38E4-8EC1-48E3-98F1-9F56D6E422BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223E38E4-8EC1-48E3-98F1-9F56D6E422BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223E38E4-8EC1-48E3-98F1-9F56D6E422BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223E38E4-8EC1-48E3-98F1-9F56D6E422BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338A8015-5A0B-482D-ACD7-BFD7078059E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338A8015-5A0B-482D-ACD7-BFD7078059E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338A8015-5A0B-482D-ACD7-BFD7078059E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338A8015-5A0B-482D-ACD7-BFD7078059E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93AE1378-480B-474E-9138-1AB215F256E1} = {3AC96D69-A363-4496-8B41-327ECAD1EAEE}
+		{D106AB49-F066-420F-83D3-67D949D054C8} = {3AC96D69-A363-4496-8B41-327ECAD1EAEE}
+		{B8353CC1-2DB5-4BBB-8233-85848031ABE8} = {10FDCA59-D738-4DB9-ADCE-BE74ED6250DA}
+		{2BCFB6F6-D913-4863-9BA8-35495CB25965} = {10FDCA59-D738-4DB9-ADCE-BE74ED6250DA}
+		{223E38E4-8EC1-48E3-98F1-9F56D6E422BA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{338A8015-5A0B-482D-ACD7-BFD7078059E5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {111DDA43-F01A-4225-ACDA-F55D29FF1BC0}
